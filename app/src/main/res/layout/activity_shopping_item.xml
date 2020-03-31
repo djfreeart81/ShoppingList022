@@ -1,9 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ShoppingItem">
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/header_shoppingitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/header_shopping_item"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button1_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item1_shopping_item" />
+
+        <Button
+            android:id="@+id/button2_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item2_shopping_item" />
+
+        <Button
+            android:id="@+id/button3_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item3_shopping_item" />
+
+        <Button
+            android:id="@+id/button4_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item4_shopping_item" />
+
+        <Button
+            android:id="@+id/button5_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item5_shopping_item" />
+
+        <Button
+            android:id="@+id/button6_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item6_shopping_item" />
+
+        <Button
+            android:id="@+id/button7_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item7_shopping_item" />
+
+        <Button
+            android:id="@+id/button8_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item8_shopping_item" />
+
+        <Button
+            android:id="@+id/button9_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item9_shopping_item" />
+
+        <Button
+            android:id="@+id/button10_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item10_shopping_item" />
+
+        <Button
+            android:id="@+id/button11_shoppingitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="AddItemToShoppingList"
+            android:text="@string/item11_shopping_item" />
+
+</LinearLayout>
+</ScrollView>

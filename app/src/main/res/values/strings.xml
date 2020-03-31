@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Shopping List 02.2</string>
     <string name="add_item_main">Add Item</string>
+    <string name="item1_shopping_item">Rice</string>
+    <string name="item2_shopping_item">Pasta</string>
+    <string name="item3_shopping_item">Flour</string>
+    <string name="item4_shopping_item">Water</string>
+    <string name="item5_shopping_item">Juice</string>
+    <string name="item6_shopping_item">Banana</string>
+    <string name="item7_shopping_item">Apple</string>
+    <string name="item8_shopping_item">Sugar</string>
+    <string name="item9_shopping_item">Toilet Paper</string>
+    <string name="item10_shopping_item">Milk</string>
+    <string name="item11_shopping_item">Yogurt</string>
+    <string name="header_shopping_item">Click on the item to be added</string>
 </resources>

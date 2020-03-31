@@ -34,6 +34,7 @@
         android:id="@+id/item5_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         />
     <TextView
         android:id="@+id/item6_main"
